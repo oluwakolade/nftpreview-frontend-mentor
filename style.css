@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html { font-family: "Outfit", sans-serif; }
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 6px;
+    transition: color 250ms ease;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+     padding: 15px;
+     max-width: 290px;
+     margin: 0 auto;
+     border-radius: 17px;
+     box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05),
+              0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.text{
+    padding: 22px 10px;
+}
+h2{
+padding-bottom: 10px;
+color: hsl(0, 0%, 100%);
+cursor: pointer;
+transition: color 250ms ease;
+}
+h2:hover{
+    color: cyan;
+}
+
+
+.text p{
+    padding-bottom: 5px;
+    color: hsl(215, 51%, 70%);
+} 
+.divider{
+    width: 100%;
+    height: 0.1rem;
+    background: hsl(215, 32%, 27%);
+    gap: 4px;
+}
+
+.name{
+    display:     flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+    display: inline-flex;
+    padding-top: 12px;
+}
+.name img{
+    width:  34px;
+      height: 34px;
+      border: 2px solid hsl(0, 0%, 100%) ;
+      border-radius: 50px;
+      margin-right: 15px;
+  
+    width: 15%;
+    height: 15%;
+}
+.eth img {
+
+    width: auto;
+    height: auto;
+    padding-right: 4px;
+}
+
+.eth {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.eth ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eth li{
+    display: flex;
+    align-items: center;
+}
+.eth h3{
+    color: hsl(178, 100%, 50%);
+}
+.eth p{
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+/* .eth{
+    width: 100%;
+    flex: row nowrap, space-between ,center ;
+}
+
+h3{
+    padding-bottom: 10px;
+    color: hsl(178, 100%, 50%);
+
+}
+.eth{
+    display:inline-flex;
+      align-items:center;
+      font-weight: 500;
+}
+.eth p{
+    padding-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+   float: right;
+    align-items: flex-end;
+
+}
+.eth img{
+    margin-right: 6px;
+    display: inline-flex;
+    width: 7%;
+    height: 7%;
+}
+.eth1{
+   grid-template-columns: auto;
+} */
